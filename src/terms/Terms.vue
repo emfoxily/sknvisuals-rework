@@ -1,8 +1,6 @@
 <template>
     <div>
-        <mq-layout mq="sm">
-            <Nav style="margin-top: 30vw"/>
-        </mq-layout>
+        <Nav />
     </div>
 </template>
 
@@ -10,7 +8,7 @@
 import Nav from '../nav/Nav.vue'
 
 export default {
-    name: 'Events',
+    name: 'Terms',
     components: {
         Nav
     }

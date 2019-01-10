@@ -8,6 +8,7 @@ import Cosplay from '../portfolio/Cosplay.vue'
 import Misc from '../portfolio/Misc.vue'
 import Events from '../events/Events.vue'
 import Contact from '../contact/Contact.vue'
+import Terms from '../terms/Terms.vue'
 import Booking from '../booking/Booking.vue'
 import Ohayo from '../booking/Ohayo.vue'
 import Katsu from '../booking/Katsu.vue'
@@ -32,6 +33,10 @@ export default new Router({
     path:'/booking',
     name: 'Booking',
     component: Booking,
+  }, {
+    path: '/terms',
+    name: 'Terms',
+    component: Terms
   }, {
     path: '/ohayo',
     name: 'Ohayo',
