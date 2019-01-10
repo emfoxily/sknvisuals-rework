@@ -16,7 +16,9 @@
                 </router-link>
             </li>
             <li>
-                CALENDAR
+                <router-link to="/events">
+                    EVENTS
+                </router-link>
             </li>
             <li>
                 <router-link to="/booking">
