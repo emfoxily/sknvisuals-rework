@@ -44,7 +44,7 @@
 
     nav.mobile-nav {
         position: fixed;
-        background-color: #222;
+        background-color: #111;
         width: 100%;
         margin: -15vw -5vw -5vw;
         padding: .5em;
@@ -62,7 +62,7 @@
     }
     
     nav.mobile-nav li {
-        border-bottom: .1em solid #222;
+        /* border-bottom: .1em solid #000; */
         margin: 0 0 10vw -10vw;
     }
     
@@ -73,7 +73,7 @@
     span.nav-bars {
         position: fixed;
         display: block;
-        background-color: #222;
+        background-color: #111;
         width: 100%;      
         top: 0;
         left: 0;
