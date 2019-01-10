@@ -34,6 +34,7 @@
 
 <style scope>
     nav {
+        font-family: 'bebas';
         color: #c5c5c5;
     }
     nav a {
@@ -54,7 +55,7 @@
     nav.mobile-nav ul {
         list-style: none;
         float: none;
-        font-size: 7vw;
+        font-size: 8vw;
         text-align: center;
         margin: 15vw 0 15vw 0;
         z-index: 2;
