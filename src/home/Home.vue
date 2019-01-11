@@ -5,6 +5,8 @@
       <Header />
     </mq-layout>
     <mq-layout mq="md+">
+      <Nav />
+      <Header />
     </mq-layout>
   </main>
 </template>

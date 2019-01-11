@@ -5,6 +5,11 @@
 
             <img src="../assets/cameralens.png" alt="camera lens" />
         </mq-layout>
+        <mq-layout mq="md+" class="desk-camera">
+            <div class="desk-slideshow" :style="{ backgroundImage: 'url(' + images[currentNumber % images.length] + ')' }" />
+
+            <img style="width: 25vw" src="../assets/cameralens.png" alt="camera lens" />
+        </mq-layout>
     </div>
 </template>
 
@@ -38,6 +43,18 @@
 </script>
 
 <style scope>
+
+    .desk-slideshow {
+        display: block;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        margin: 4vw 4.5vw;
+        width: 16vw;
+        height: 16vw;
+        border-radius: 100%;
+    }
+
     .mobile-camera {
         animation: ;
     }

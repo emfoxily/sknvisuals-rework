@@ -7,6 +7,13 @@
                 <Camera />
             </header>
         </mq-layout>
+        <mq-layout mq="md+">
+            <header class="desk-header">
+                <img src="../assets/rainbowlogo.png" alt="sknvisuals" />
+
+                <Camera />
+            </header>
+        </mq-layout>
     </div>
 </template>
 
@@ -22,6 +29,21 @@
 </script>
 
 <style scope>
+
+    header.desk-header {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin: 10vw;
+        width: 75%;
+    }
+
+    header.desk-header img{
+        width: 50%;
+        align-self: center;
+    }
+
+
     header.mobile-header {
         margin: 30vw 0;
         z-index: -5;
