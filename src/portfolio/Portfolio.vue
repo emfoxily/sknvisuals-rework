@@ -12,10 +12,11 @@
         </mq-layout>
         <mq-layout mq="md+">
             <Nav />
-            <h1 class="lg-h1">
+            <h1 class="lg-h1" style="margin-top: 20vw;">
                 <a href="/portfolio/cosplay">COSPLAY</a>
             </h1>
             <br />
+            <hr />
             <h1 class="lg-h1">
                 <a href="/portfolio/misc">MISCELLANEOUS</a>
             </h1>
@@ -36,7 +37,7 @@
 
 <style scope>
     h1.lg-h1 {
-        margin-top: 15vw;
+        margin-top: 3.5vw;
     }
     
     h1.lg-h1 a {

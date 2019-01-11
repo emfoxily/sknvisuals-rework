@@ -34,7 +34,7 @@
         position: absolute;
         display: flex;
         justify-content: center;
-        margin: 10vw;
+        margin: 15vw 10vw;
         width: 75%;
     }
 

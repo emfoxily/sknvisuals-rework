@@ -3,6 +3,9 @@
         <mq-layout mq="sm">
             <Images class="sm-portfolio" />
         </mq-layout>
+        <mq-layout mq="md+">
+            <Images />
+        </mq-layout>
     </div>
 </template>
 
